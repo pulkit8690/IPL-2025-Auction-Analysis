@@ -72,3 +72,21 @@ TotalRetainedPlayers =
 COUNTROWS(
     FILTER(YourTable, [Retained_or_Auctioned] = "Retained")
 )
+```
+```DAX
+TotalAuctionedPlayers = 
+COUNTROWS(
+    FILTER(YourTable, [Retained_or_Auctioned] = "Auctioned")
+)
+```
+```DAX
+TotalAmountSpent = SUM(YourTable[Sold])
+```
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Name**: Pulkit Arora  
+- **Email**: pulkitarora8690@gmail.com  
+- **LinkedIn**: [Click here](https://www.linkedin.com/in/pulkit-arora-731b17227/)
